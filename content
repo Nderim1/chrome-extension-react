@@ -1,0 +1,11 @@
+"content_scripts": [
+  {
+    "matches": [
+      "https://twitter.com/*",
+      "https://www.twitter.com/*"
+    ],
+    "js": [
+      "content-script.js"
+    ]
+  }
+],
